@@ -108,3 +108,61 @@ body {
 }
 
 /*Features Love section styles*/
+
+.features {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    margin-bottom: 50px;
+}
+
+.features-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    font-family: var(--font-family);
+    margin-top: -200px;
+}
+
+.features-description h1 {
+    font-size: 2em;
+}
+
+.features-description p {
+    color: #727272;
+}
+
+.items {
+    box-shadow: 0px 0px 10px lightgray;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.items h3 {
+    font-size: 1.5em;
+}
+
+.item-image button {
+    font-family: var(--font-family);
+    font-size: 3em;
+    width: 40%;
+    padding: 20px 0px;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    transform: translate(-70px, -70px);
+}
+
+/*some Facts style*/
+.some-facts {
+    width: 40%;
+    margin-left: 10%;
+    font-family: var(--font-family);
+}
+
+.some-facts p {
+    color: #727272;
+}

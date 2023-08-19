@@ -161,8 +161,56 @@ body {
     width: 40%;
     margin-left: 10%;
     font-family: var(--font-family);
+    margin-bottom: 100px;
 }
 
 .some-facts p {
     color: #727272;
+}
+
+/* Facts Styles */
+
+.facts-container {
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10%;
+    font-family: var(--font-family);
+    margin-bottom: 100px;
+}
+
+.fact {
+    padding: 20px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    background-color: #eeebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fact:hover {
+    background-color: #727272;
+}
+
+/* Sponsors Styles*/
+
+.sponsor-container {
+    width: 80%;
+    margin: auto;
+}
+
+.sponsor-content {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: var(--font-family);
+}
+
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }

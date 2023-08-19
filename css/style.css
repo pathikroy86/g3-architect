@@ -32,6 +32,10 @@ body {
     color: rgb(87, 78, 78);
 }
 
+.menu-dropdown {
+    display: none;
+}
+
 .banner-container {
     width: 80%;
     margin: auto;
